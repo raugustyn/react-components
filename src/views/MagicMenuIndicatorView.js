@@ -5,11 +5,11 @@ import SyntaxHighlighter from "react-syntax-highlighter"
 
 const code = '<MagicMenuIndicator selected=\{this.state.selected\}\n' +
     '   items={[\n' +
-    '           [\'Home\',\t<HomeOutline/>],\n' +
-    '           [\'Profile\',\t<PersonOutline/>],\n' +
+    '           [\'Home\',\t\t<HomeOutline/>],\n' +
+    '           [\'Profile\',\t\t<PersonOutline/>],\n' +
     '           [\'Messages\',\t<ChatboxOutline/>],\n' +
-    '           [\'Photos\',\t<CameraOutline/>],\n' +
-    '           [\'Settings\',\t<SettingsOutline/>]\n' +
+    '           [\'Photos\',\t\t<CameraOutline/>],\n' +
+    '           [\'Settings\',\t\t<SettingsOutline/>]\n' +
     '   ]}\n' +
     '   onSelectItem=\{this.selectElement}\n' +
     '/>'
@@ -32,6 +32,7 @@ class MagicMenuIndicatorView extends Component {
                     <h1>MagicMenuIndicator</h1>
                     <p>
                         This components creates fancy horizontal menu showing icons and text hint.
+                        It is react implementation of <a href="https://www.youtube.com/watch?v=ArTVfdHOB-M&t=708s">this</a> tutorial.
                     </p>
                 <h2>Example</h2>
                 <MagicMenuIndicator selected={this.state.selected} items={
@@ -45,7 +46,7 @@ class MagicMenuIndicatorView extends Component {
                 }
                                     onSelectItem={this.selectElement}/>
                 <div style={{color: '#ffffff', margin: '10px'}}>
-                    Selected item: {this.state.selected}
+                    Selected item: <b>{this.state.selected}</b>
                 </div>
                 <div style={{marginTop: '10px', textAlign: 'left'}}>
                     <h2>Code Example</h2>
