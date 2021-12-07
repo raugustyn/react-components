@@ -7,7 +7,7 @@ const code = '<MagicMenuIndicator selected=\{this.state.selected\}\n' +
     '   items={[\n' +
     '           [\'Home\',\t<HomeOutline/>],\n' +
     '           [\'Profile\',\t<PersonOutline/>],\n' +
-    '           [\'Message\',\t<ChatboxOutline/>],\n' +
+    '           [\'Messages\',\t<ChatboxOutline/>],\n' +
     '           [\'Photos\',\t<CameraOutline/>],\n' +
     '           [\'Settings\',\t<SettingsOutline/>]\n' +
     '   ]}\n' +
@@ -38,7 +38,7 @@ class MagicMenuIndicatorView extends Component {
                     [
                         ['Home', <HomeOutline/>],
                         ['Profile', <PersonOutline/>],
-                        ['Message', <ChatboxOutline/>],
+                        ['Messages', <ChatboxOutline/>],
                         ['Photos', <CameraOutline/>],
                         ['Settings', <SettingsOutline/>]
                     ]

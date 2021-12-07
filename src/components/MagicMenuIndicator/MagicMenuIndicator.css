@@ -2,14 +2,6 @@
     --clr: #222327;
 }
 
-body {
-    display: flex;
-    __justify-content: center;
-    _align-items: center;
-    min-height: 100vh;
-    background: #222327;
-}
-
 .navigation {
     margin-top: 35px;
     width: 400px;
