@@ -21,11 +21,12 @@ class MagicMenuIndicator extends Component {
     }
 
     render() {
+        const width = this.props.items ? 50+70*this.props.items.length + 'px' : 400
         return (
-            <div className="navigation">
+            <div className="navigation" style={{ width }}>
                 {this.props.items ?
                     (
-                        <ul>{
+                        <ul style={{ width: 70*this.props.items.length + 'px' }}>{
                             this.props.items.map((item, index) => (
                                 <li key={index} className={item[0] === this.state.selected ? 'list active' : 'list'}
                                     onClick={() => this.selectElement(index, item[0])}>
