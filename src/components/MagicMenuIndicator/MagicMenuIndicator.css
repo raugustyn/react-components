@@ -1,24 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
 :root {
     --clr: #222327;
 }
 
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    __justify-content: center;
+    _align-items: center;
     min-height: 100vh;
-    background: var(--clr);
+    background: #222327;
 }
 
 .navigation {
+    margin-top: 35px;
     width: 400px;
     height: 70px;
     background: #fff;
