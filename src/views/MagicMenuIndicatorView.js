@@ -3,17 +3,16 @@ import {MagicMenuIndicator} from "../components"
 import {CameraOutline, ChatboxOutline, HomeOutline, PersonOutline, SettingsOutline} from "react-ionicons";
 import SyntaxHighlighter from "react-syntax-highlighter"
 
-const code = '<MagicMenuIndicator selected=\{this.state.selected\} items={\n' +
-    '                    [\n' +
-    '                        [\'Home\', <HomeOutline/>],\n' +
-    '                        [\'Profile\', <PersonOutline/>],\n' +
-    '                        [\'Message\', <ChatboxOutline/>],\n' +
-    '                        [\'Photos\', <CameraOutline/>],\n' +
-    '                        [\'Settings\', <SettingsOutline/>]\n' +
-    '                    ]\n' +
-    '                }\n' +
-    '                    onSelectItem=\{this.selectElement\n' +
-    '\}/>'
+const code = '<MagicMenuIndicator selected=\{this.state.selected\}\n' +
+    '   items={[\n' +
+    '           [\'Home\',\t<HomeOutline/>],\n' +
+    '           [\'Profile\',\t<PersonOutline/>],\n' +
+    '           [\'Message\',\t<ChatboxOutline/>],\n' +
+    '           [\'Photos\',\t<CameraOutline/>],\n' +
+    '           [\'Settings\',\t<SettingsOutline/>]\n' +
+    '   ]}\n' +
+    '   onSelectItem=\{this.selectElement}\n' +
+    '/>'
 
 class MagicMenuIndicatorView extends Component {
 

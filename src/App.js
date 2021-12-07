@@ -1,13 +1,9 @@
-import './App.css';
 import { MagicMenuIndicatorView } from './views'
 
-
-function App() {
-  return (
+const App = () => (
     <div className="App">
       <MagicMenuIndicatorView />
     </div>
-  );
-}
+  )
 
-export default App;
+export default App
