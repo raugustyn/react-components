@@ -45,7 +45,7 @@
     font-size: 1.5em;
     text-align: center;
     transition: 0.5s;
-    color: var(--clr)
+    __color: var(--clr)
 }
 
 .navigation ul li:hover a .icon {
@@ -58,7 +58,7 @@
 
 .navigation ul li a .texta {
     position: absolute;
-    color: var(--clr);
+    __color: var(--clr);
     font-width: 400;
     font-size: 0.75em;
     letter-spacing: 0.05em;

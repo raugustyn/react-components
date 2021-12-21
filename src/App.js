@@ -1,8 +1,10 @@
 import { MagicMenuIndicatorView } from './views'
+import './views/View.css'
+import { LogoNodejs } from 'react-ionicons'
 
 const App = () => (
     <div className="App">
-        <div style={{ background: '#222327', padding: '5px' }} >
+        <div className="View" >
             <MagicMenuIndicatorView />
         </div>
     </div>
