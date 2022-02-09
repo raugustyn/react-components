@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { MagicMenuIndicator } from "../components"
+import { MagicMenuIndicator } from "../lib/components"
 import { CameraOutline, ChatboxOutline, HomeOutline, PersonOutline, SettingsOutline } from "react-ionicons";
 import SyntaxHighlighter from "react-syntax-highlighter"
 
