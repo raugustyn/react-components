@@ -1,0 +1,32 @@
+.ImageWithDescription {
+    position: relative;
+}
+
+.ImageWithDescription .description {
+    background-color: rgba(0, 0, 0, 0.47);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 2rem;
+    vertical-align: middle;
+    bottom: 0px;
+    color: white;
+    margin: 0;
+    padding-left: 0.5em;
+}
+
+.ImageWithDescription .InfoButton {
+    background-color: rgba(0, 0, 0, 0.47);
+    position: absolute;
+    width: 2em;
+    height: 2rem;
+    vertical-align: middle;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+    font-weight: bold;
+    margin: 0px 16px 0px 0px;
+    padding: 0;
+    text-align: center;
+    border-radius: 50%;
+}
